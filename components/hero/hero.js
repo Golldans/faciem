@@ -1,16 +1,21 @@
-import { HeroMain, Me, Faciem, Fabula, Nomen } from "./heroStyles"
+/* eslint-disable react/jsx-key */
+import { memo, useState } from "react"
+import { HeroMain, Me, Faciem, Fabula } from "./heroStyles"
+import { Nomen } from "../titles/nomen"
+import { withTheme } from "styled-components"
 
 export default function Hero(){
+
+    function testing(){
+        console.log('oi');
+    }
+
     return (
         <HeroMain>
             <Me>
-                <Nomen>
-                    Cristiano <br/>
-                    Henrique <br/>
-                    Ferreira <br/>
-                </Nomen>
+                <Nomen />
             </Me>
-            <Faciem>
+            <Faciem onClick={testing}>
                 
             </Faciem>
             <Fabula>
