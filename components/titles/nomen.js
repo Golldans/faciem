@@ -14,10 +14,10 @@ export function Nomen(){
     }
 
     return (
-        <div 
+        <div  
         onClick={changeNomen}
         onMouseLeave={changeNomen}
-        style={{
+        style={{ 
             color: "white",
             fontSize: "2rem",
             display: "flex",
