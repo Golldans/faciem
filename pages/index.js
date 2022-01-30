@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from '../components/header/header'
-import Satus from '../components/satus/Satus'
+import Principium from '../components/principium/Principium'
 
 
 
@@ -11,8 +10,8 @@ export default function Home() {
     <Head>
       <title>Golldan</title>
     </Head>
-    <Satus>
+    <Principium>
 
-    </Satus>
+    </Principium>
   </>)
 }
